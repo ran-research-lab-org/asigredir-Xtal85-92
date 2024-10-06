@@ -15,7 +15,7 @@ int main() {
 
   double percentage = (ctr / 10.0) * 100;
 
-  cout << "Porcentaje de Impares" << fixed << setprecision(2) << percentage <<"%" << endl;
+  cout << "Porcentaje de Impares: " << fixed << setprecision(2) << percentage <<"%" << endl;
 
 
 
