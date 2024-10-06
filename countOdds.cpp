@@ -1,5 +1,5 @@
 #include <iostream>
-#include <format>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -13,6 +13,11 @@ int main() {
     if (n % 2 == 1) ctr++;
   }
 
-  cout << format("Porcentaje de impares: {}%\n", ctr / 10. * 100);
+  double percentage = (ctr / 10.0) * 100;
+
+  cout << "Porcentaje de Impares" << fixed << setprecision(2) << percentage <<"%" << endl;
+
+
+
   return 0;
 }
